@@ -1,11 +1,11 @@
-import rbd from './assets/rbd.png'
+
+import Home from './components/Home'
 function App() {
   
   return (
-    <>
-    <p className='font-mulish'>rbd teste amdksan</p>
-    <img src={rbd} alt="" />
-    </>
+ 
+   <Home />
+   
   )
 }
 
