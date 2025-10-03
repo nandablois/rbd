@@ -1,12 +1,17 @@
+import { BrowserRouter as Router } from "react-router-dom";
+import Header from "./components/Header";
 
-import Home from './pages/Home'
+import AppRoutes from "./routes";
+
+
 function App() {
-  
   return (
- 
-   <Home />
-   
-  )
+    <Router>
+      <Header />
+      <AppRoutes />
+     
+    </Router>
+  );
 }
 
-export default App
+export default App;
