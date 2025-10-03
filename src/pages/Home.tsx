@@ -1,7 +1,7 @@
-import Footer from "./Fotter";
-import Header from "./Header";
-import Button from "./ui/Button";
-import ImageSlider from "./ui/ImageSlider";
+import Footer from "../components/Fotter";
+import Header from "../components/Header";
+import Button from "../components/ui/Button";
+import ImageSlider from "../components/ui/ImageSlider";
 
 
 const images: string[] = [
@@ -21,7 +21,6 @@ export default function Home() {
 
           <div id="slides" className="order-1">
             <ImageSlider images={images} />
-
           </div>
 
       
@@ -33,7 +32,7 @@ export default function Home() {
               músicas em espanhol, português e inglês, o grupo marcou gerações e 
               até hoje é lembrado com carinho pelos fãs.
             </p>
-            <Button  >Ver Linha do Tempo</Button>
+            <Button>Ver Linha do Tempo</Button>
 
           </div>
         </div>
